@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-ebf",
+  "version": "1.0.0",
+  "description": "An ESLint Shareable Config for EBF projects",
+  "main": "index.js",
+  "author": {
+    "name": "Vladimir Spasic",
+    "email": "vladimir.spasic@ebf.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ebf/eslint-config-ebf.git"
+  },
+  "scripts": {
+    "test": "npm run lint && tape test/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "tape": "^4.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.2.2"
+  },
+  "homepage": "https://github.com/ebf/eslint-config-ebf",
+  "bugs": {
+    "url": "https://github.com/standard/eslint-config-standard/issues"
+  },
+  "keywords": [
+    "JavaScript EBF Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code style",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "style",
+    "style ebf",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "Apache-2.0"
+}
