@@ -1,6 +1,6 @@
 {
   "name": "@ebf/eslint-config-ebf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ESLint Shareable Config for EBF projects",
   "main": "index.js",
   "author": {
