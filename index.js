@@ -14,9 +14,9 @@ module.exports = {
   },
   
   globals: {
-    document": readonly,
-    navigator": readonly,
-    window": readonly,
+    document: "readonly",
+    navigator: "readonly",
+    window: "readonly",
   },
 
   rules: {
