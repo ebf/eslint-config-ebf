@@ -1,4 +1,4 @@
-# eslint-config-ebf
+# eslint-config-ebf ![GitHub](https://img.shields.io/github/license/ebf/eslint-config-ebf) ![GitHub package.json version](https://img.shields.io/github/package-json/v/ebf/eslint-config-ebf) ![David](https://img.shields.io/david/ebf/eslint-config-ebf) ![Node.js Package](https://github.com/ebf/eslint-config-ebf/workflows/Node.js%20Package/badge.svg) ![GitHub issues](https://img.shields.io/github/issues/ebf/eslint-config-ebf)
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for EBF projects
 
