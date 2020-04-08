@@ -1,3 +1,6 @@
+/* eslint-env node */
+'use strict';
+
 module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
@@ -14,13 +17,14 @@ module.exports = {
   },
   
   globals: {
-    document: "readonly",
-    navigator: "readonly",
-    window: "readonly",
+    document: 'readonly',
+    navigator: 'readonly',
+    window: 'readonly',
   },
 
   rules: {
     yoda: 'error',
+    indent: ['error', 2],
     complexity: ['off', 11],
     semi: ['error', 'always'],
     curly: ['error', 'multi-line'],
@@ -46,7 +50,6 @@ module.exports = {
     'no-else-return': ['error', { allowElseIf: false }],
     'no-confusing-arrow': ['error', { allowParens: true }],
     'no-empty-function': ['error', { allow: ['arrowFunctions', 'functions', 'methods'] }],
-    'no-curly-component-invocation': { allow: ['liquid-outlet', 'yield'] },
     'semi-style': ['error', 'last'],
     'semi-spacing': ['error', { before: false, after: true }],
     'one-var': ['error', 'never'],

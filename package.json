@@ -12,7 +12,8 @@
     "url": "git://github.com/ebf/eslint-config-ebf.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "lint": "eslint . --config=index.js",
+    "test": "npm run lint && tape test/*.js"
   },
   "devDependencies": {
     "eslint": "^6.2.2",
