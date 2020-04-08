@@ -47,5 +47,8 @@
     "style linter",
     "verify"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "Apache-2.0"
 }
